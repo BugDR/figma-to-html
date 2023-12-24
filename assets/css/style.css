@@ -375,6 +375,8 @@ line-height: 54px; /* 122.727% */
 
 .popular .course-list .info{
     margin: 16px 22px 22px;
+    /* max-width: 326px;
+    height: 150px; */
 }
 
 .popular .course-list .info p{
