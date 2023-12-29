@@ -564,8 +564,9 @@ line-height: 54px; /* 122.727% */
 }
 
 .blog .blog-content{
+    overflow: hidden;
     display: flex;
-    justify-content: space-between;
+    gap: 30px;
 }
 
 .blog .main-content .blog-top{
@@ -576,6 +577,7 @@ line-height: 54px; /* 122.727% */
 .blog .item{
     border-radius: 16px;
     background: #FFF;
+    flex-shrink: 0;
 }
 
 .blog .item:hover{
@@ -642,9 +644,6 @@ line-height: 54px; /* 122.727% */
 }
 
 .blog .item .btn-read{
-    width: 118px;
-    height: 50px;
-    border-radius: 25px;
     margin-top: 12px;
     font-size: 14px;
 }
